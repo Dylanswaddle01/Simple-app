@@ -1,0 +1,100 @@
+.container {
+	width: 1200px;
+	height:885px;
+	margin: 0 auto;
+	color: black;}
+
+.container2 {
+	width: 1200px;
+	margin: auto;
+	color: black;}
+
+.column0 {
+	width: 368px;
+	height: 100px;
+	margin: 2px;
+	padding: 10px;
+	background-color: #d1f442;
+	float:left;}
+    
+
+.column {
+	width: 368px;
+	height: 695px;
+	margin: 2px;
+	padding: 10px;
+	background-color: #d1f442;
+	float:left;}
+
+.column2 {
+	width: 168px;
+	height:695px;
+	margin: 2px;
+	padding: 10px;
+    color:black;
+	background-color:#d1f442;
+	float:left;}
+
+.column4 {
+	width: 368px;
+	height: 100px;
+	margin: 2px;
+	padding: 10px;
+	background-color: #d1f442;
+	float:right;
+	margin-right: 226px;}
+
+	.content {
+	width: 1180px;
+	height:595px;
+	margin: 2px;
+	padding: 10px;
+    color:black;
+	background-color: #d1f442;}
+	
+.photobox{
+	width:168px;
+	height: 1
+	50px;
+}
+
+.anything{
+	padding: 0;
+	margin:0;
+}
+ 
+
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+	width:1000px;
+	background-color: darkcyan;
+}
+
+li {
+    float: left;
+	
+}
+li:last-child {
+    border-right: none;
+   }
+
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:#d1f442;
+}
+
+.active {
+    border-style:none;
+    background-color: #d1f442;
+}
